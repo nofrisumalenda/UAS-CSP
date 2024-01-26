@@ -1,0 +1,99 @@
+:root {
+  --blue: rgb(13, 53, 105);
+  --kuning: rgb(226, 181, 90);
+  --putih: #fff;
+}
+
+nav {
+  background-color: var(--putih) !important;
+  box-shadow: 0px 8px 10px #ddd;
+}
+
+nav img {
+  width: 10rem;
+}
+
+nav .nav-link {
+  color: var(--blue);
+  font-weight: 700;
+  transition: all 0.3s ease 0s;
+}
+
+nav .nav-link:hover {
+  color: var(--kuning);
+}
+
+#hero .atap {
+  color: var(--kuning);
+  font-size: 4em;
+}
+
+#hero .isi {
+  font-size: 2em;
+}
+
+#hero img {
+  width: 80%;
+}
+
+#signature {
+  background-color: var(--blue);
+}
+
+#signature h2 {
+  color: var(--putih);
+  font-weight: 700;
+}
+
+#signature img {
+  width: 70%;
+}
+
+#signature p {
+  color: var(--putih);
+  font-size: 1.2em;
+}
+
+#view {
+  background-color: var(--kuning);
+}
+
+#view .g3 {
+  width: 89%;
+}
+#view .g2 {
+  width: 75%;
+}
+
+#view h2 {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+#snack {
+  background-color: var(--kuning);
+}
+
+#galeri {
+  background-color: var(--blue);
+}
+
+#galeri h2 {
+  color: var(--putih);
+}
+
+#galeri h4 {
+  color: var(--putih);
+}
+
+.div {
+  background-color: var(--kuning);
+}
+
+.div-produk {
+  background-color: var(--putih);
+}
+
+.div-galeri {
+  background-color: var(--putih);
+}
